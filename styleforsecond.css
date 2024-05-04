@@ -1,0 +1,46 @@
+body {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    background: #fae1dd;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.text-container {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #003049;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #f08080;
+}
+
+.small-movie-image {
+    margin-top: 20px; /* Add margin to separate image and button */
+    width: 200px; /* Adjust the width as needed */
+    height: auto;
+    margin-left: 5px;
+}
+
+
+.ticket-image {
+    margin-top: 20px; /* Add margin to separate image and button */
+    width: 600px; /* Adjust the width as needed */
+    height: auto;
+    
+}
